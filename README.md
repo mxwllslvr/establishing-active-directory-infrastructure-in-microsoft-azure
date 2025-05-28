@@ -66,11 +66,11 @@ Record the Public IP addresses for both VMs and the Private IP address for DC-1 
 <p><img width="850" alt="image" src="https://github.com/user-attachments/assets/5f76a9bd-0c09-4603-9c36-a83df2a1772f"/></p>
 <p>Navigate to Virtual Machines, select DC-1, and access Networking.
 
-Click the Network interface link, then select IP configurations and click ipconfig1.</p>
+Click the Network interface link..</p>
 <br/><br/>
 
 <p><img width="850" alt="image" src="https://github.com/user-attachments/assets/af3552f3-e0d5-4662-8a1d-aad0634a38f4"/></p>
-<p>Under Private IP address settings, change Allocation to Static. Confirm the Private IP (e.g., 10.0.0.4) remains unchanged and click Save.
+<p>Select IP configurations and click ipconfig1. Under Private IP address settings, change Allocation to Static. Confirm the Private IP (e.g., 10.0.0.4) remains unchanged and click Save.
 
 Verify the static IP is applied in the IP configurations view. A static IP ensures DC-1’s address remains consistent, critical for its role as a domain controller.</p>
 <br/><br/>

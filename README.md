@@ -52,7 +52,8 @@ Size: At least Standard_D2s_v5 (2 vCPUs, 8 GiB memory)
 Configure the second VM:
 
 ```
-Name: Client-1 Image: Windows 10 Pro
+Name: Client-1 
+Image: Windows 10 Pro
 Size: At least Standard_D2s_v5 (2 vCPUs, 8 GiB memory)
 ```
 <br/>
@@ -74,4 +75,24 @@ Click the Network interface link, then select IP configurations and click ipconf
 Verify the static IP is applied in the IP configurations view. A static IP ensures DC-1’s address remains consistent, critical for its role as a domain controller.</p>
 <br/><br/>
 
+<h3>Establish RDP Connection to DC-1:</h3>
+<br/>
+
+<p><img width="850" alt="image" src="https://github.com/user-attachments/assets/0eac8db9-0d5a-4b79-a9d5-57455ba0496c"/></p>
+<p>On your local Windows device, open the Run dialog (Windows + R) and type mstsc to launch the Remote Desktop Connection client.
+
+Enter DC-1’s Public IP address and the Username created for DC-1. Click Connect.
+
+Authenticate using the password created for DC-1. (Upon connection, confirm the Server Manager Dashboard appears, indicating a proper Windows Server 2022 environment. If a standard Windows desktop appears, verify DC-1’s configuration in Azure.)</p>
+<br/><br/>
+
+
+<h3>Disable DC-1 Firewall:</h3>
+<br/>
+
+<p><img width="850" alt="image" src="https://github.com/user-attachments/assets/0eac8db9-0d5a-4b79-a9d5-57455ba0496c"/></p>
+<p>On DC-1, right-click the Start menu, select Run, type wf.msc, and press Enter to open Windows Defender Firewall settings.
+
+Click Windows Defender Firewall Properties. For Domain Profile, Private Profile, and Public Profile, set Firewall state to Off. Click Apply and OK for each tab to save changes.</p>
+<br/><br/>
 

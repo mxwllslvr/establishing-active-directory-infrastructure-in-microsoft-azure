@@ -126,3 +126,10 @@ Once connected, open PowerShell via the Start menu search.
 
 In PowerShell on Client-1, run ping 10.0.0.4 to test connectivity to DC-1. Successful replies confirm both VMs are on the same Virtual Network and DC-1’s firewall is disabled. Then execute ipconfig /all to display network configuration. Confirm the DNS Server is set to DC-1’s Private IP (e.g., 10.0.0.4), ensuring Client-1 uses DC-1 for DNS resolution.</p>
 <br/><br/>
+
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+<h2>Conclusion</h2>
+
+This procedure successfully established an Active Directory infrastructure in Microsoft Azure, comprising a Resource Group (CloudInfraRG), a domain controller (DC-1), and a client machine (Client-1). This setup forms the basis for future Active Directory projects, including domain deployment. The configuration highlights the efficiency of cloud-based infrastructure management. To optimize costs, stop both VMs in Azure when not in use. This concludes the setup process, preparing you for advanced Active Directory implementations.
+<br/><br/>
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">

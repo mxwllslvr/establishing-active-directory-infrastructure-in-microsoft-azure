@@ -57,4 +57,22 @@ Size: At least Standard_D2s_v5 (2 vCPUs, 8 GiB memory)
 ```
 <br/>
 Record the Public IP addresses for both VMs and the Private IP address for DC-1 (e.g., 10.0.0.4) for RDP and configuration purposes.</p>
+<br/>
+
+<h3>Set Static Private IP for DC-1:</h3>
+<br/>
+
+<p><img width="850" alt="image" src="https://github.com/user-attachments/assets/6177fbea-6fab-4bbd-b435-b9d7b5c0816f"/></p>
+<p>Navigate to Virtual Machines, select DC-1, and access Networking.
+
+Click the Network interface link, then select IP configurations and click ipconfig1.</p>
 <br/><br/>
+
+<p><img width="850" alt="image" src="https://github.com/user-attachments/assets/5616cd3f-b66c-421e-8721-b8b060705d31"/></p>
+<p>Under Private IP address settings, change Allocation to Static. Confirm the Private IP (e.g., 10.0.0.4) remains unchanged and click Save.
+
+Verify the static IP is applied in the IP configurations view. A static IP ensures DC-1’s address remains consistent, critical for its role as a domain controller.</p>
+<br/><br/>
+
+
+

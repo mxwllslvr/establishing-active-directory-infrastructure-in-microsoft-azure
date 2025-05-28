@@ -90,7 +90,7 @@ Authenticate using the password created for DC-1. (Upon connection, confirm the 
 <h3>Disable DC-1 Firewall:</h3>
 <br/>
 
-<p><img width="850" alt="image" src="https://github.com/user-attachments/assets/0eac8db9-0d5a-4b79-a9d5-57455ba0496c"/></p>
+<p><img width="850" alt="image" src="https://github.com/user-attachments/assets/acfc102f-4723-4899-93a9-5229b73563cb"/></p>
 <p>On DC-1, right-click the Start menu, select Run, type wf.msc, and press Enter to open Windows Defender Firewall settings.
 
 Click Windows Defender Firewall Properties. For Domain Profile, Private Profile, and Public Profile, set Firewall state to Off. Click Apply and OK for each tab to save changes.</p>

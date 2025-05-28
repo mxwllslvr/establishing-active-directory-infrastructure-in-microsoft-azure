@@ -66,7 +66,7 @@ Record the Public IP addresses for both VMs and the Private IP address for DC-1 
 <p><img width="850" alt="image" src="https://github.com/user-attachments/assets/5f76a9bd-0c09-4603-9c36-a83df2a1772f"/></p>
 <p>Navigate to Virtual Machines, select DC-1, and access Networking.
 
-Click the Network interface link..</p>
+Click the Network interface link.</p>
 <br/><br/>
 
 <p><img width="850" alt="image" src="https://github.com/user-attachments/assets/af3552f3-e0d5-4662-8a1d-aad0634a38f4"/></p>

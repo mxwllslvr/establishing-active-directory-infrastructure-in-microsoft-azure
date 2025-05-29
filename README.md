@@ -1,6 +1,10 @@
-# Establishing Active Directory Infrastructure in Microsoft Azure
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 ![Github Banner 3 - Creating Active Directory Infrastructure in the Cloud (Azure) Banner](https://github.com/user-attachments/assets/a1e1d48d-80a0-4479-b267-fbb413f42ae2)
+
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
+# Establishing Active Directory Infrastructure in Microsoft Azure
 
 This guide details the setup of an Active Directory infrastructure in Microsoft Azure, establishing the foundation for future Active Directory deployment and management projects.
 
@@ -144,6 +148,14 @@ Restart **Client-1** to apply the DNS change:
 
 ---
 
+<br/><br/>
+
+<div align="center"> <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDh4OGptcm5ma2V2emw4bHAwdm1sdG13aGU4bHNjZHZiNG1rcTg5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xThuWcZzGnonnG3ayQ/giphy.gif" width="100%"> </div>
+
+<br/><br/>
+
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
 ## Conclusion
 
 This procedure successfully established an Active Directory infrastructure in Microsoft Azure, comprising a Resource Group (**CloudInfraRG**), a domain controller (**DC-1**), and a client machine (**Client-1**). This setup forms the basis for future Active Directory projects, including domain deployment.
@@ -156,3 +168,13 @@ This procedure successfully established an Active Directory infrastructure in Mi
 - Prepared the foundation for Active Directory domain services
 
 The configuration highlights the efficiency of cloud-based infrastructure management. To optimize costs, stop both VMs in Azure when not in use. This concludes the setup process, preparing you for advanced Active Directory implementations.
+
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
+<br/><br/>
+
+<div align="center">
+
+<a href="HTTP://www.github.com/mxwllslvr">- BACK TO MAIN PAGE -</a>
+
+</div>

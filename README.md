@@ -4,6 +4,8 @@
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
+<br/>
+
 # Establishing Active Directory Infrastructure in Microsoft Azure
 
 This guide details the setup of an Active Directory infrastructure in Microsoft Azure, establishing the foundation for future Active Directory deployment and management projects.
